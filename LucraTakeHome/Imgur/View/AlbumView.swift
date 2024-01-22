@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import CachedAsyncImage
 
 struct AlbumView<ViewModel>: View where ViewModel: AlbumViewModelProtocol {
     @State private var isFullScreen = false
